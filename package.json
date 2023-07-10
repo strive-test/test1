@@ -2,6 +2,9 @@
   "name": "test1",
   "version": "1.0.0",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "123",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -19,7 +22,10 @@
     "core-js": "^3.8.3",
     "lodash-es": "^4.17.21"
   },
-  "files": ["example","dist"],
+  "files": [
+    "example",
+    "dist"
+  ],
   "devDependencies": {
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
